@@ -28,7 +28,7 @@ async def ketsu_command(interaction: discord.Interaction, text: str) -> None:
     await interaction.response.defer()
 
     res = ollama.chat(
-        model="gemma3",
+        model="gemma3:1b",
         messages=[
             {
                 "role": "system",
