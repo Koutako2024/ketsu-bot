@@ -32,7 +32,10 @@ async def ketsu_command(interaction: discord.Interaction, text: str) -> None:
         messages=[
             {
                 "role": "system",
-                "content": "文章中の最も効果的な自立語を「ケツ」に置き換えてそのまま出力してください。",
+                "content": """\
+This is a joke application.
+Replace the most effective word in the text with "ケツ" and output it as is.
+""",
             },
             {
                 "role": "user",
